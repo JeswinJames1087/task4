@@ -1,0 +1,95 @@
+body{
+    background-color: #f0f2f5;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.main-page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.container{
+    position: absolute;
+    border: 1px solid rgb(6, 6, 6);
+}
+#main-heading {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .hr{
+    display: flex;
+  
+  }
+  #heading{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+
+  }
+  #login-btn{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 6px 0px;
+  }
+  #login-btn button{
+    padding: 14px 16px;
+    width: 100%;
+    background-color: #187FF2;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:750;
+    color: white;
+}
+
+.form #enum{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 6px -10px;
+   
+    
+}
+#enum input{
+    font-size: 17px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    padding: 20px 20px;
+    width: 90%;
+    margin: 8px;
+
+}
+.form #pwd{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 6px 0px;
+
+}
+
+#pwd input{
+    font-size: 17px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    padding: 20px 20px;
+    width: 90%;
+    margin: 8px;
+
+ 
+}
+.learn{
+    color: #064792;
+}
